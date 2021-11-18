@@ -30,6 +30,10 @@ ul.headerLinks {
     font-weight: 400;
 }
 
+ul.licenses {
+    flex-direction: row;
+}
+
 .firstContainer {
     background-color: #1f2937;
     display: flex;
@@ -43,6 +47,10 @@ ul.headerLinks {
     justify-content: space-between;
     margin: 32px 0px;
     gap: 64px
+}
+
+.headerMusicContainer {
+    display: flex;
 }
 
 .header {
@@ -63,14 +71,13 @@ ul.headerLinks {
 .headerText {
     color: #f9faf8;
     font-size: 24px;
-
 }
 
 .welcome {
     margin: 0px;
     padding: 0px;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -91,17 +98,74 @@ ul.headerLinks {
     font-weight: bold;
 }
 
+.secondContainer {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 300px 56px;
+}
+
+.secondContainerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondContainerTitle {
+    /* margin: 0px;
+    padding: 0px; */
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.licenseContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.licenseTypeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+ul.licenses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
 .thirdContainer {
     background-color: #E5E7EB;
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 300px 56px;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+figcaption,
+cite {
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .footer {
     background-color: #1f2937;
 }
-
-/* .headerImg {
-    max-width: 350px;
-    height: auto;
-    border-radius: 5px;
-} */
