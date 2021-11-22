@@ -16,6 +16,12 @@ input[type="reset"] {
     outline: inherit;
 }
 
+a {
+    text-decoration: inherit;
+    color: inherit;
+    /* cursor: auto; */
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -32,6 +38,8 @@ ul.headerLinks {
 
 ul.licenses {
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .firstContainer {
@@ -89,13 +97,18 @@ ul.licenses {
     padding: 0px;
 }
 
-.firstContainerButton {
+.firstContainerButton,
+.ctaButton {
     background-color: #3882f6;
     padding: 8px 32px;
     border-radius: 8px;
     font-size: 16px;
     color: #f9faf8;
     font-weight: bold;
+}
+
+.ctaButton {
+    border: 2px solid white;
 }
 
 .secondContainer {
@@ -132,7 +145,7 @@ ul.licenses {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 300px;
 }
 
 ul.licenses {
@@ -168,4 +181,37 @@ cite {
 
 .footer {
     background-color: #1f2937;
+}
+
+.fourthContainer {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 56px 300px;
+}
+
+.callToAction {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 112px;
+    border-radius: 8px;
+}
+
+.ctaInfo {
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 112px;
+    color: #f9faf8;
 }
